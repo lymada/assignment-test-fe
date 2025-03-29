@@ -297,3 +297,50 @@
   }
 }
 
+.statusCheckboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.statusCheckboxLabel {
+  display: flex;
+  cursor: pointer;
+
+}
+
+.statusCheckbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 1rem;
+  background-color: white;
+}
+
+.statusCheckbox:checked {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.statusCheckbox:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.statusCheckboxLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+

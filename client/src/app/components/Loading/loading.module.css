@@ -1,0 +1,24 @@
+.filterContainer {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+  }
+  
+  .filterRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .filterOptions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .filterOption {
+    width: 120px;
+    height: 30px;
+    border-radius: 9999px;
+  }
+  

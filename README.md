@@ -1,10 +1,13 @@
 # assignment-test-fe
 
+--------------
 # install : yarn
-
 # start : yarn start
 
+--------------
 # CRUD ticket
 # Filter
-# Scoll List with many ticket
+# UT
+# Scroll List with many ticket
+# Skeleton Loading
 # Action form
